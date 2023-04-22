@@ -1,0 +1,4 @@
+#!/bin/bash
+docker build . --tag alpinevms-light:latest
+helm package helm/*
+helm repo index --url https://herokukms.github.io/alpinevms-light/ .
