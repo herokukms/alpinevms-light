@@ -30,11 +30,11 @@ spec:
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
             - name: BUILD_NUMBER
-              value: {{ .Values.kms.buildNumer }}
+              value: {{ quote .Values.kms.buildNumer }}
             - name: LOCALE
-              value: {{ .Values.kms.locale }}
+              value: {{ quote .Values.kms.locale }}
             - name: PORT
-              value: {{ .Values.kms.port }}
+              value: {{ quote .Values.kms.port }}
           ports:
             - name: kms
               containerPort: {{ .Values.kms.port }}

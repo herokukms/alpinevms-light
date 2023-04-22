@@ -10,9 +10,9 @@ kms:
   buildNumer: 20348
 
 image:
-  repository: herokums/alpinevms-light
+  repository: herokukms/alpinevms-light
   pullPolicy: IfNotPresent
-  tag: ""
+  tag: "latest"
 
 imagePullSecrets: []
 nameOverride: ""
