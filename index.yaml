@@ -2,14 +2,25 @@ apiVersion: v1
 entries:
   alpinevms-light:
   - apiVersion: v2
-    appVersion: 0.1.0
-    created: "2023-04-22T14:44:14.352936866Z"
+    appVersion: 0.1.2
+    created: "2023-04-24T18:04:51.33392376Z"
     description: An Alpinevms light for Kubernetes
-    digest: 2fbeb684daa31d43e74817f3fa1b519615f18400f5eaf4b0559c11504462629a
+    digest: 81dccda9a931dbdff359439c3dc99d85de51aa9ad1d230be3d5714db96932427
+    icon: https://www.microsoft.com/favicon.ico
+    name: alpinevms-light
+    type: application
+    urls:
+    - https://herokukms.github.io/alpinevms-light/alpinevms-light-0.1.2.tgz
+    version: 0.1.2
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-04-24T18:04:51.333478223Z"
+    description: An Alpinevms light for Kubernetes
+    digest: 1f749e544885bceac72a88676640ca63336f42e004c9972a9d270b6a9580ae8d
     icon: https://www.microsoft.com/favicon.ico
     name: alpinevms-light
     type: application
     urls:
     - https://herokukms.github.io/alpinevms-light/alpinevms-light-0.1.0.tgz
     version: 0.1.0
-generated: "2023-04-22T14:44:14.352221231Z"
+generated: "2023-04-24T18:04:51.332710047Z"
