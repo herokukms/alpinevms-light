@@ -7,7 +7,7 @@ RUN apk add --no-cache git make build-base libcurl curl-dev openssl-dev && \
     git clone https://github.com/herokukms/alpinevms.git && \
     cd alpinevms && \
     mkdir -p bin && \
-    VERBOSE=1 CC=gcc CFLAGS="-DUSE_THREADS -DFULL_INTERNAL_DATA" LDFLAGS="-lpthread -lssl -lcrypto -lcurl   "  GETIFADDRS=musl DNS_PARSER=internal make
+    VERBOSE=1 CC=gcc CFLAGS="-DUSE_THREADS -DFULL_INTERNAL_DATA -DGNU_SOURCE" LDFLAGS="-lpthread -lssl -lcrypto -lcurl   "  GETIFADDRS=musl DNS_PARSER=internal make
 
 FROM alpine:latest
 COPY --from=builder /root/alpinevms/bin/vlmcsd /usr/bin/vlmcsd
