@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{ include "alpinevms-light.fullname" . }}
+  labels:
+    {{- include "alpinevms-light.labels" . | nindent 4 }}
+spec:
+  type: {{ .Values.service.type }}
+  ports:
+    - port: {{ .Values.kms.port }}
+      targetPort: {{ .Values.kms.port }}
+      protocol: TCP
+      name: kms
+  selector:
+    {{- include "alpinevms-light.selectorLabels" . | nindent 4 }}
