@@ -1,0 +1,19 @@
+{{- if .Values.gateway.enabled }}
+apiVersion: gateway.networking.k8s.io/v1alpha2
+kind: TCPRoute
+metadata:
+  name: kms-route
+  namespace: kms
+spec:
+  parentRefs:
+    # - group: gateway.networking.k8s.io
+    #   kind: Gateway
+    #   name: haproxy-gateway
+  - name: haproxy-gateway
+    sectionName: vkms
+  rules:
+    - backendRefs:
+        - kind: Service
+          name: hkms-alpinevms-light
+          port: {{ .Values.kms.port }}
+{{- end}}
