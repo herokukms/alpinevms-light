@@ -3,6 +3,7 @@
 # Declare variables to be passed into your templates.
 
 gateway:
+  proxyV2: false # this enable send-proxy-v2 on backend through haproxy-ingress-control (find a forked haproxy-ingress on github supporting gateway api v1 and proxyv2 )
   enabled: true
 replicaCount: 1
 

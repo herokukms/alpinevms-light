@@ -4,6 +4,10 @@ kind: Gateway
 metadata: 
     name: haproxy-gateway
     namespace: kms
+    annotations:
+      {{- if .Values.gateway.proxyV2 }}
+      haproxy.org/send-proxy-v2: 'true'
+      {{- end}}
 spec:
   gatewayClassName: haproxy-gatewayclass
   listeners:
