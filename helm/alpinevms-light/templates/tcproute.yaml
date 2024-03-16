@@ -4,6 +4,10 @@ kind: TCPRoute
 metadata:
   name: kms-route
   namespace: kms
+  annotations:
+      {{- if .Values.gateway.proxyV2 }}
+      haproxy.org/send-proxy-v2: 'true'
+      {{- end}}
 spec:
   parentRefs:
     # - group: gateway.networking.k8s.io
