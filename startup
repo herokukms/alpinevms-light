@@ -1,5 +1,4 @@
 #!/bin/sh
-BUILD_NUMBER="${BUILD_NUMBER:=20348}"
 LOCALE="${LOCALE:=1036}"
 PORT="${PORT:=1688}"
-/usr/bin/vlmcsd -D -d -e -P $PORT -H $BUILD_NUMBER -C $LOCALE -v
+/usr/bin/vlmcsd -D -d -e -P $PORT -C $LOCALE -v

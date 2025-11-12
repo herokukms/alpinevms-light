@@ -29,8 +29,6 @@ spec:
           image: "{{ .Values.image.repository }}:{{ .Values.image.tag | default .Chart.AppVersion }}"
           imagePullPolicy: {{ .Values.image.pullPolicy }}
           env:
-            - name: BUILD_NUMBER
-              value: {{ quote .Values.kms.buildNumer }}
             - name: LOCALE
               value: {{ quote .Values.kms.locale }}
             - name: PORT

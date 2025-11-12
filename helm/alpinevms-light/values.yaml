@@ -10,7 +10,6 @@ replicaCount: 1
 kms:
   port: 1688
   locale: 1036
-  buildNumer: 20348
 
 image:
   repository: herokukms/alpinevms-light
