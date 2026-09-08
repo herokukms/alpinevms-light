@@ -1,11 +1,11 @@
 {{- if .Values.gateway.enabled }}
-apiVersion: gateway.networking.k8s.io/v1
+apiVersion: gateway.networking.k8s.io/v1beta1
 kind: Gateway
-metadata: 
+metadata:
     name: haproxy-gateway
     namespace: kms
 spec:
-  gatewayClassName: haproxy-gatewayclass
+  gatewayClassName: haproxy
   listeners:
   - name: vkms
     protocol: TCP

@@ -3,7 +3,21 @@ entries:
   alpinevms-light:
   - apiVersion: v2
     appVersion: 0.1.11
-    created: "2025-11-12T10:21:17.880831603Z"
+    created: "2026-09-08T10:45:22.533779476+02:00"
+    description: An Alpinevms light for Kubernetes
+    digest: 63698b86f4e1f92e8660ac80e35d4568efb8e2c7aab231ee482630c00016949b
+    icon: https://www.microsoft.com/favicon.ico
+    name: alpinevms-light
+    sources:
+    - https://github.com/herokukms/alpinevms
+    - https://github.com/herokukms/alpinevms-light
+    type: application
+    urls:
+    - https://herokukms.github.io/alpinevms-light/alpinevms-light-0.2.5.tgz
+    version: 0.2.5
+  - apiVersion: v2
+    appVersion: 0.1.11
+    created: "2026-09-08T10:45:22.533411759+02:00"
     description: An Alpinevms light for Kubernetes
     digest: ea02f30c7edb98962e581cf34af5d8487265b66ad586782bd17fb8390508418a
     icon: https://www.microsoft.com/favicon.ico
@@ -17,7 +31,7 @@ entries:
     version: 0.2.4
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2025-11-12T10:21:17.88036577Z"
+    created: "2026-09-08T10:45:22.533057382+02:00"
     description: An Alpinevms light for Kubernetes
     digest: a3e9a865049935d55b59d175ede4201311d2338250535e89ce1dc76f753ff978
     icon: https://www.microsoft.com/favicon.ico
@@ -31,7 +45,7 @@ entries:
     version: 0.2.3
   - apiVersion: v2
     appVersion: 0.1.9
-    created: "2025-11-12T10:21:17.877804668Z"
+    created: "2026-09-08T10:45:22.532712295+02:00"
     description: An Alpinevms light for Kubernetes
     digest: 19aba9b74f7321eff919f6c3cbe851e07f9b1af7a6141c14282c1cccd0e498e7
     icon: https://www.microsoft.com/favicon.ico
@@ -45,7 +59,7 @@ entries:
     version: 0.2.2
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2025-11-12T10:21:17.87732197Z"
+    created: "2026-09-08T10:45:22.532338711+02:00"
     description: An Alpinevms light for Kubernetes
     digest: ae96b977a4346b6c4c99badc10e8607b848dc556b267242044f67bc9a43d1b2e
     icon: https://www.microsoft.com/favicon.ico
@@ -56,7 +70,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 0.1.5
-    created: "2025-11-12T10:21:17.876467819Z"
+    created: "2026-09-08T10:45:22.532001865+02:00"
     description: An Alpinevms light for Kubernetes
     digest: 7b52f30d1764bb23fc281c9bf1975fced2cdbf35613e5ceb024a6479c82e857f
     icon: https://www.microsoft.com/favicon.ico
@@ -67,7 +81,7 @@ entries:
     version: 0.1.5
   - apiVersion: v2
     appVersion: 0.1.4
-    created: "2025-11-12T10:21:17.875532125Z"
+    created: "2026-09-08T10:45:22.531691488+02:00"
     description: An Alpinevms light for Kubernetes
     digest: 9fc91e62c4c67ba8a614c81619a37a27fb8cc1c5aa06f15197f6630aa3bc8bd1
     icon: https://www.microsoft.com/favicon.ico
@@ -78,7 +92,7 @@ entries:
     version: 0.1.4
   - apiVersion: v2
     appVersion: 0.1.3
-    created: "2025-11-12T10:21:17.874654669Z"
+    created: "2026-09-08T10:45:22.531344166+02:00"
     description: An Alpinevms light for Kubernetes
     digest: b9d7bfb82651b9282c032deb334c18c6dfe6f07d629c43d5154fb77a8511943d
     icon: https://www.microsoft.com/favicon.ico
@@ -89,7 +103,7 @@ entries:
     version: 0.1.3
   - apiVersion: v2
     appVersion: 0.1.2
-    created: "2025-11-12T10:21:17.727502626Z"
+    created: "2026-09-08T10:45:22.531003967+02:00"
     description: An Alpinevms light for Kubernetes
     digest: 4642ca62af4b78173415fd5a6a91763385c5bbab73081327fa723fd46d6d3dcf
     icon: https://www.microsoft.com/favicon.ico
@@ -100,7 +114,7 @@ entries:
     version: 0.1.2
   - apiVersion: v2
     appVersion: 0.1.0
-    created: "2025-11-12T10:21:17.727017181Z"
+    created: "2026-09-08T10:45:22.530679692+02:00"
     description: An Alpinevms light for Kubernetes
     digest: 1f749e544885bceac72a88676640ca63336f42e004c9972a9d270b6a9580ae8d
     icon: https://www.microsoft.com/favicon.ico
@@ -109,4 +123,4 @@ entries:
     urls:
     - https://herokukms.github.io/alpinevms-light/alpinevms-light-0.1.0.tgz
     version: 0.1.0
-generated: "2025-11-12T10:21:17.703641939Z"
+generated: "2026-09-08T10:45:22.530156926+02:00"
